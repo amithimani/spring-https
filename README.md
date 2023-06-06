@@ -6,7 +6,7 @@ This is a sample Spring Boot application named "spring-https" that demonstrates 
 
 The project follows the package structure `dev.knowledgecafe` and includes the following configuration files:
 
-- `SecurityConfig.java`: This file, located in the `config` folder, contains the configuration for redirecting traffic from the HTTP endpoint (port 8080) to the HTTPS endpoint (port 8043).
+- `SecurityConfig.java`: This file, located in the `config` folder, contains the configuration for redirecting traffic from the HTTP endpoint (port 8080) to the HTTPS endpoint (port 8443).
 - `ServerConfig.java`: Also located in the `config` folder, this file includes the server configuration settings.
 
 ## Application Configuration
@@ -14,7 +14,7 @@ The project follows the package structure `dev.knowledgecafe` and includes the f
 The application configuration can be found in the `application.yml` file, located in the `resources` folder. It includes the following settings:
 
 - SSL Certificate Configuration: The `application.yml` file contains the configuration related to the SSL certificate and keystore used for HTTPS communication. Please ensure that the appropriate SSL certificate and keystore files are provided.
-- Port Configuration: The file specifies the port settings for the application. By default, the application is configured to use port 8080 for HTTP and port 8043 for HTTPS.
+- Port Configuration: The file specifies the port settings for the application. By default, the application is configured to use port 8080 for HTTP and port 8443 for HTTPS.
 
 ## Requirements
 
